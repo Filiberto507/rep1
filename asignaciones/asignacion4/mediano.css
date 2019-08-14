@@ -1,0 +1,5 @@
+@media screen and(max-width: 900px) and (min-width:450px){
+    body {width: 100%;}
+    .header{width: 100%;}
+    .image{width: 100%;float: left;}
+} 
