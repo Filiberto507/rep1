@@ -11,25 +11,26 @@
     
 </head>
 <body>
-        <div class="header">
-                <div class="header_logo">
-                  <img src="imagenes/logo.PNG" />
-                  <h1>CVyCopacabana.com</h1>
-                </div>
-        </div>      
-               
-                   <ul>
-                    <li><a href="uno.com">Inicio</a></li>
-                    <li><a href="dos.asp">Lugares</a></li>
-                    <li><a href="tres.asp">Hospedaje</a></li>
-                    <li><a href="cuatro.asp">Restaurantes</a></li>
-                    <li><a href="cinco.asp">Galeria</a></li>
-                    <li><a href="seis.asp">Contactos</a></li>
-                   </ul>
-                   
-               
-    
-    
+    <header>
+            <div class="header">
+                    <div class="header_logo">
+                      <img src="imagenes/logo.PNG" />
+                      <h1>CVyCopacabana.com</h1>
+                    </div>
+            </div>    
+    </header>
+    <main>
+        <nav>
+                <ul>
+                        <li><a href="uno.com">Inicio</a></li>
+                        <li><a href="dos.asp">Lugares</a></li>
+                        <li><a href="tres.asp">Hospedaje</a></li>
+                        <li><a href="cuatro.asp">Restaurantes</a></li>
+                        <li><a href="cinco.asp">Galeria</a></li>
+                        <li><a href="seis.asp">Contactos</a></li>
+                       </ul>
+        </nav>
+        
         <div class="image">
                 <img src="imagenes/turismo2.png" alt="image">
         </div>
@@ -40,28 +41,39 @@
                        </3>
                        
             </article>
+    </main>
+          <aside>
+                <section class="wap">
+                        <section class="contenedor-columnas">
+                            <div class="columnasx3">
+                                <img src="imagenes/bolivia.jpg" alt="">
+                                <h1>Turismo en Bolivia</h1>
+                                <p>bolivia posee muchos atractivos turisticos en el occidente, oriente y los valles</p>
+                            </div>
+                            <div class="columnasx3">
+                                    <img src="imagenes/copacabana.jpg" alt="">
+                                    <h1>Copacabana</h1>
+                                    <p>la ciudad de Copacabana ubicada en el departamento de La Paz es un destino turistico....</p>
+                                </div>
+                                <div class="columnasx3">
+                                        <img src="imagenes/casavieja.jpg" alt="">
+                                        <h1>Casa Vieja</h1>
+                                        <p>La Casa Vieja es un viñedo muy antiguo, hoy en dia es un lugar turistico y esta ubicado en el departamento de Tarija</p>
+                                    </div>
+                        </section>
+                             </section>
+          </aside>
     
-     <section class="wap">
-<section class="contenedor-columnas">
-    <div class="columnasx3">
-        <img src="imagenes/bolivia.jpg" alt="">
-        <h1>Turismo en Bolivia</h1>
-        <p>bolivia posee muchos atractivos turisticos en el occidente, oriente y los valles</p>
-    </div>
-    <div class="columnasx3">
-            <img src="imagenes/copacabana.jpg" alt="">
-            <h1>Copacabana</h1>
-            <p>la ciudad de Copacabana ubicada en el departamento de La Paz es un destino turistico....</p>
-        </div>
-        <div class="columnasx3">
-                <img src="imagenes/casavieja.jpg" alt="">
-                <h1>Casa Vieja</h1>
-                <p>La Casa Vieja es un viñedo muy antiguo, hoy en dia es un lugar turistico y esta ubicado en el departamento de Tarija</p>
-            </div>
-</section>
-     </section>
+    
     
      <footer>
+            
+            <script>
+                var meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                var dias = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                var fecha = new Date();
+                document.write(dias[fecha.getDay()] + ", " + fecha.getDate() + " de " + meses[fecha.getMonth()] + " de " + fecha.getFullYear());
+            </script>
             <p> 
              Todos los derechos reservados
              <br>
