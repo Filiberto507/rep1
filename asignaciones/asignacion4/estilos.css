@@ -1,5 +1,5 @@
 .header {
-  
+  margin-top: 0%;
   width: 100%;
   height: 120px;
   background-color: rgb(150, 215, 250);
@@ -25,17 +25,16 @@
   color: rgb(55, 55, 117);
 }
 
- .div image{
-    position: relative;
-    background-color: rgb(229, 238, 217);
-    
-  }
- .image{
-   padding-top: 15px;
+ .image img{
+  overflow: hidden;
+   width: 100%;
+   height: 700px;
+   padding-top: 10px;
+   padding-bottom: 10px;
   text-align: center;
 }
   
-  ul{
+  /*ul{
     list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,9 +51,10 @@
   text-align: center;
   padding: 14px 26px;
   text-decoration: none;
-  }
+  }*/
   
   .wap{
+    overflow: hidden;
     width: 100%;
     margin: auto;
     
@@ -90,9 +90,10 @@
     font-size: 20px;
     font-weight: normal;
     background-color: rgb(207, 207, 228);
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     padding-left: 10px;
+    overflow: hidden;
   }
   body{
     background-color: rgb(240, 232, 232);
