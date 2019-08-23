@@ -1,0 +1,57 @@
+fieldset{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    background-color: rgb(195, 230, 245);
+}
+
+.ff{
+    width: 20px;
+    height: 200px;
+    float: left;
+    background-color: rgb(174, 190, 243);
+}
+.legend{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+legend{
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    border: outset;
+    border-radius: 8px;
+  
+    -webkit-appearance: none;
+  }
+.mas{
+    width: 20px;
+    height: 20px;
+    background-color: #497192;
+    border-radius: 10px;
+}
+.fem{
+    width: 20px;
+    height: 20px;
+    background-color: #497192;
+    border-radius: 10px;
+}
+  form {
+    position: relative;
+  
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+  }
+  h2{
+      text-align: center;
+      padding-right: 100px;
+  }
+  label{
+      font-size: 18px;
+  }
+  .send{
+      width: 100px;
+  }

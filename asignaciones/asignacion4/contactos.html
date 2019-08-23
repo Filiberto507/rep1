@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilocontactos.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>CONTACTOS</h2>
+        <form action="gr.html" method="get">
+            <fieldset>
+                <legend>Informacion</legend>
+                <label>Nombre Completo :<br><input type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Name" required></label><br>
+                <label>E mail :<br> <input type="e mail" name="e mail" placeholder="ejemplo@gmail.com"></label><br>
+                <label>Telefono :<br><input type="tel" name="phone" placeholder="###-###-####" required></label><br>
+                <label>Fecha :<br><input type="date" name="date"></label><br>
+                <label>Tipo de usuario :<br>
+                    <input list="lista" name="TypeUser">
+                    <datalist id="typeuser">
+                        <option value="turista nacional">
+                        <option value="turista extranjero">
+                        <option value="turista">
+                    </datalist>
+                </label>
+                <br>
+                <label>Lugar del que requiere mas informacion :<br>
+                    <select name="place">
+                        <option value="">Seleccione lugar</option>
+                        <option value="Copacabana">Copacabana</option>
+                        <option value="Casa Vieja">Casa Vieja</option>
+                    </select>
+                </label>
+                <fieldset class="ff">
+                    <legend class="legend">Sexo :<em>(seleccione uno)</em></legend>
+                    <label><input class="mas" type="radio" name="sexo" value="M">Masculino</label>
+                    <label><input class="fem" type="radio" name="sexo" value="F">Femenino</label>
+                </fieldset>
+            </fieldset>
+            <input class="send" type="submit" value="Enviar">
+            <input class="send" type="submit" value="Cancelar">
+        </form>
+    </main>
+</body>
+</html>
