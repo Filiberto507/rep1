@@ -42,9 +42,8 @@ legend{
 
 .boton{
     width: 250px;
-    align-items: center;
-    background-color: rgb(24, 175, 175);
-    
+    background-color: rgb(178, 212, 212);
+    border-radius: 8px;
 }
 .fieldset1{
     padding: 5% 10%;
