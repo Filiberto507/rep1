@@ -1,0 +1,42 @@
+{
+    "Titulo": "CVyCopacabana.com",
+    "lugar1":{
+        "nombre": "Copacabana",
+        "hospedaje":["Hotel La Cupula",
+                     "Hostal Piedra Andina",
+                     "Hotel Rosario Lago Titicaca",
+                     "Hotel Utama",
+                     "Hotel Lago Azul",
+                     "Hotel Wendy Mar"],
+        "restaurantes":["Restaurant 6 de agosto",
+                     "Restaurant La Posta",
+                     "Coffee Shop Copacabana",
+                     "Restaurant Cabanas de Playa",
+                     "Restaurante K'otairama"],
+        "lugares para visitar":["Puma Punku",
+                     "Puerta del Sol",
+                     "Ruinas de Tiwanaku",
+                     "Iglesia de Copacabana",
+                     "Lago Titicaca"],
+        "telefono":"77450932",
+        "facebook":"Copacabana-Bolivia"
+    },
+    "lugar2":{
+        "nombre": "Casa Vieja",
+        "hospedaje":["Hotel Los Parrales",
+                     "Hotel Victoria Plaza",
+                     "Hotel Martinez",
+                     "Apart Hotel La banda",
+                     "Hotel Los Ceibos",
+                     "Hotel Carmen"],
+        "restaurantes":["El Fogon de Gringo",
+                     "Belen Coffee-Restaurant",
+                     "Gattopardo Taberna",
+                     "El Marques",
+                     "Casona del molino"],
+        "lugares para visitar":["Viñedos",
+                     "Bodegas"],
+        "telefono":"60714501",
+        "facebook":"Casa Vieja Tarija-Bolivia"
+    }
+}
