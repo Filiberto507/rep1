@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form action="get">
+        <fieldset>
+            <legend>Informacion:</legend>
+            <label >Nombre Completo <input type="text" name="name" pattern="[A-Za-z].{5,}" placeholder="Name" required ></label>
+            <label >E_mail <input type="email" name="e-mail" placeholder="example@email.com"></label>
+            <label >Telefono <input type="tel" name="phonr"placeholder="###-###-###" required></label>
+            <label >Fecha <input type="date"  name="date"></label>
+            <label >Tipo de Usuario
+                <input list="" name="typeUser">
+                <datalist id="Typeuser">
+                    <option value="Turista Nacional">
+                    <option value="Turista Estrangero">
+                </datalist>
+            </label>
+            <label >Lugar del que require mas informacion</label>
+            <select name="place" >
+                <option value="">Seleccione Lugar</option>
+                <option value="Cochabamba">copacabana</option>
+                <option value="Casa vieja">Casa vieja</option>
+            </select>
+           <fieldset class="fieldset1">
+             <legend>Sexo <em>(Seleccione uno)</em></legend>
+             <label> <input type="radio" name="sexo" value="F"> Femenino </label>
+             <label> <input type="radio" name="sexo" value="M"> Masculino </label>
+          </fieldset>
+          <Label>Informacion Adicional <textarea name="aditional" id="" cols="30" rows="10"></textarea> </Label>
+       </fieldset>
+       <input class="boton" type="submit" value="Enviar">
+  </form>
+</body>
+</html>

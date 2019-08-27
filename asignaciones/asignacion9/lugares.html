@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        }
+    </header>
+    <section>
+
+    </section>
+    <script>
+    var header=document.querySelector('header');
+    var section=document.querySelector('section');
+    var requestURL='https://filiberto507.github.io/rep1/asignaciones/asignacion9/lugares.json';
+    var request =new  XMLHttpRequest();
+    request.open('GET',requestURL);
+    request.responseType='json';
+    Request.send();
+    request.onload=function(){
+
+    }
+
+    function mostrarenHeader(jsonObj){
+        var myH1=Document.createElement('h1');
+        myH1.textContent=jsonObj['Titulo'];
+        header.appendChild(myH1);
+        myp=document.createElement('p');
+        myp.textContent=''
+    }
+
+    
+    
+    </script>
+</body>
+</html>

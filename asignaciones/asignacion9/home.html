@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mediano.css">
+    <link rel="stylesheet" href="pequeño.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <script src="js/menuDs.js"></script>
+    <header>
+            <div class="header">
+                    <div class="header_logo">
+                      <img src="imagenes/logo.PNG" />
+                      <h1>CVyCopacabana.com</h1>
+                    </div>
+            </div>    
+    </header>
+    <main>
+        <nav>
+                <ul class="navigation">
+                        <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                        <li><a href="uno.com">Inicio</a></li>
+                        <li><a href="dos.asp">Lugares</a></li>
+                        <li><a href="tres.asp">Hospedaje</a></li>
+                        <li><a href="cuatro.asp">Restaurantes</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="galeriacasavieja.html">Galeria2</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                       </ul>
+        </nav>
+        
+        <div class="image">
+                <img src="imagenes/lago.jpeg" alt="image">
+        </div>
+            
+            <article>
+                       <h3>CVyCopacabana.com es un sitio que contiene información sobre dos destinos turísticos de Bolivia: "Ciudad de Copacabana" del departamento de La paz y "Casa Vieja" del departamento de Tarija.
+                            Aquí encontrará los datos sobre hospedaje, restaurantes, clima, lugares de recreacion familiar.
+                       </h3>
+                       
+            </article>
+
+            <div class="galeria">
+                <figure>
+                    <img src="imagenes/bolivia.jpg" alt="descripciondeimagen">
+                    <figcaption class="descripcion">bolivia posee muchos atractivos turisticos <br> en el occidente, oriente y los valles</figcaption>
+                </figure>
+            </div>
+            <div class="galeria">
+                <figure>
+                    <img src="imagenes/copacabana.jpg" alt="descripciondeimagen">
+                    <figcaption class="descripcion">la ciudad de Copacabana ubicada en el <br>departamento de La Paz es un destino turistico...</figcaption>
+                </figure>
+            </div>
+            <div class="galeria">
+                <figure>
+                    <img src="imagenes/casavieja.jpg" alt="descripciondeimagen">
+                    <figcaption class="descripcion">La Casa Vieja es un viñedo muy antiguo,<br> hoy en dia es un lugar turistico y esta <br> en el departamento de Tarija</figcaption>
+                </figure>
+            </div>
+        </main>
+                            
+                        
+    
+     <footer>
+            
+            <script>
+                var meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                var dias = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                var fecha = new Date();
+                document.write(dias[fecha.getDay()] + ", " + fecha.getDate() + " de " + meses[fecha.getMonth()] + " de " + fecha.getFullYear());
+            </script>
+            <p> 
+             Todos los derechos reservados
+             <br>
+             CVyCopacabana.com © Copyright 2019
+         </p>
+     </footer>
+</body>
+
+</html>
