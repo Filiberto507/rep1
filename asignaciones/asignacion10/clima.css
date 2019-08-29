@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    border-radius: 8px;
+}
+div{
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 150px;
+}
+h1{
+    font-style: italic;
+    color: rgb(33, 33, 99);
+}
+p{
+    color: rgb(131, 130, 179);
+}

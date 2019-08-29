@@ -1,0 +1,160 @@
+header{
+    background-color: rgb(153, 209, 241);
+    width: auto;
+}
+header h2{
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    padding-left: 620px;
+}
+nav {
+    margin-top: 0em;
+	margin: 0 auto;
+    max-width: 100%;
+	background-color: rgb(112, 142, 243);
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: rgb(211, 204, 204);
+	font-weight: 700;
+}
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: rgb(238, 238, 223);
+	}
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+picture img{
+    display: block;
+    margin-left:190px;
+    width: auto;
+}
+.uno{
+    display: block;
+    margin-left: 200px;
+    background-color: rgb(122, 179, 233);
+    width: 72%;
+    height: 420px;
+    
+}
+.uno h2{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.uno img{
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.uno p{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+.contact{
+    display: block;
+    margin-left: 200px;
+    background-color: rgb(122, 179, 233);
+    width: 72%;
+    height: 200px;
+    padding-top: 10px;
+}
+.contact img{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.contact h6{
+    text-align: left;
+    padding-left: 660px;
+    padding-top: 12px;
+    margin-top: 3px;
+    font-size: 20px;
+    color: blue;
+}
+.contact p{
+    text-align: center;
+    padding-left: 450px;
+    display: block;
+}
+footer{
+    clear: both;
+    background-color: rgb(163, 156, 180);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .tabb {
+    width: 100%;
+    border: 1px solid #000;
+    width: 400px;
+   height: 200px;
+   margin-left: 400px;
+   overflow: hidden;
+   
+   
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background: rgb(208, 218, 230);
+   color: #000;
+   
+ }
+ .tab{
+    width: 100%;
+    border: 1px solid #000;
+    width: 400px;
+   height: 200px;
+   margin-left: 400px;
+ }
