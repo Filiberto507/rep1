@@ -1,7 +1,7 @@
 {
-    "Titulo": "CVyCopacabana.com",
-    "Ciudad":"La paz y Tarija",
-    "lugar1":{
+     "Titulo": "CVyCopacabana.com",
+     "Ciudad":"La paz y Tarija",
+    
         "nombre": "Copacabana",
         "hospedaje":["Hotel La Cupula",
                      "Hostal Piedra Andina",
@@ -20,24 +20,22 @@
                      "Iglesia de Copacabana",
                      "Lago Titicaca"],
         "telefono":"77450932",
-        "facebook":"Copacabana-Bolivia"
-    },
-    "lugar2":{
-        "nombre": "Casa Vieja",
-        "hospedaje":["Hotel Los Parrales",
+        "facebook":"Copacabana-Bolivia",
+
+        "nombre2": "Casa Vieja",
+        "hospedaje2":["Hotel Los Parrales",
                      "Hotel Victoria Plaza",
                      "Hotel Martinez",
                      "Apart Hotel La banda",
                      "Hotel Los Ceibos",
                      "Hotel Carmen"],
-        "restaurantes":["El Fogon de Gringo",
+        "restaurantes2":["El Fogon de Gringo",
                      "Belen Coffee-Restaurant",
                      "Gattopardo Taberna",
                      "El Marques",
                      "Casona del molino"],
-        "lugares para visitar":["Viñedos",
+        "lugares para visitar2":["Viñedos",
                      "Bodegas"],
-        "telefono":"60714501",
-        "facebook":"Casa Vieja Tarija-Bolivia"
+        "telefono2":"60714501",
+        "facebook2":"Casa Vieja Tarija-Bolivia"
     }
-}
