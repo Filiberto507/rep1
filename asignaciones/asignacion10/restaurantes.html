@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="imagenes/logoicono.png">
+    <link rel="stylesheet" href="css/estilogaleria.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/restaurante.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font.css">
+    <title>Galeria Restaurante</title>
+</head>
+<body>
+    
+    <script src="js/menuDs.js"></script>
+      <div class="social-bar">
+                <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
+                <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+                <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+                <a href="https://www.instagram.com" class="icon icon-instagram" target="_blank"></a>
+        </div>     
+            <header>
+                    <div class="header">
+                            <img src="imagenes/logo.PNG" />
+                             <h1>CVyCopacabana.com</h1>
+                    </div>
+            </header>
+<main>
+                <nav>
+                    <ul class="navigation">
+                            <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                            <li><a href="home.html">Inicio</a></li>
+                            <li><a href="lugares.html">Lugares</a></li>
+                            <li><a href="hospedaje.html">Hospedaje</a></li>
+                            <li><a href="restaurantes.html">Restaurantes</a></li>
+                            <li><a href="galeria.html">Copacabana</a></li>
+                            <li><a href="galeriacasavieja.html">Casa Vieja</a></li>
+                            <li><a href="contactos.html">Contactos</a></li>
+                           </ul>
+            </nav>
+
+
+        <h2>GALERIA DE RESTAURANTES COPACABANA</h2>
+        
+        <div id="content">
+
+            <div id="content-img">
+              <img src="imagenes/restaurante/img1.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img2.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img3.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img4.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img5.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img6.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img7.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+              <img src="imagenes/restaurante/img8.jpg" alt="" id="img">
+              <label></label>
+            </div>
+            <div id="content-img">
+                    <img src="imagenes/restaurante/img9.jpg" alt="" id="img">
+                    <label></label>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+            
+            <script>
+                var meses = new Array ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+                var dias = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+                var fecha = new Date();
+                document.write(dias[fecha.getDay()] + ", " + fecha.getDate() + " de " + meses[fecha.getMonth()] + " de " + fecha.getFullYear());
+            </script>
+            <p> 
+             Todos los derechos reservados
+             <br>
+             CVyCopacabana.com © Copyright 2019
+         </p>
+     </footer>
+</body>
+</html>

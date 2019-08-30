@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(9, 67, 88)
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:  rgb(49, 209, 209);
+}
+fieldset
+{
+    height: auto;
+    font-family: cursive;
+    justify-content: center;
+    margin: 5%;
+    padding-bottom: 1rem;
+    
+
+}
+form{
+    width: 500px;
+    margin: auto;
+    background: rgb(24, 110, 150);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+}
+input, textarea{
+    width: 80%;
+    padding: 5px 10px;
+    border-color: rgb(red, green, blue);
+    
+}
+label{
+padding: 10px 10px;
+color: rgb(49, 209, 209);
+}
+legend{
+    color:  rgb(49, 209, 209);
+}
+
+.boton{
+    width: 250px;
+    background-color: rgb(178, 212, 212);
+    border-radius: 8px;
+    text-decoration-color: aqua;
+}
+footer{
+    background-color: rgb(143, 190, 221);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .header {
+    background-color: rgb(15, 61, 85);
+    
+  }
+.header img{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 120px;
+    height: auto;
+  }
+ h1{
+    float:right;
+    color: rgb(112, 229, 233);
+    padding-right: 10%;
+    padding-top: 4%;
+    font-size: 170%;
+    
+  }
+

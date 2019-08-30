@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#content-img{
+    width: 360px;
+    margin: auto;
+    text-align: center;
+}
+#img{
+    width: 100%;
+}
+#content-img>label{
+    font-size: 18px;
+}

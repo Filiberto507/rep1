@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="imagenes/logoicono.png">
+    <title>Lugares Copacabana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/c/devcodela" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+</div>
+    <header>
+
+    </header>
+    <aside>
+
+    </aside>
+    
+    <section>
+    
+    </section>
+    
+    <script>
+    var header = document.querySelector('header');
+    var section = document.querySelector('section');
+    var aside=document.querySelector('aside');
+    var requestURL = 'https://filiberto507.github.io/rep1/asignaciones/asignacion9/lugares.json';
+    var request=new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function(){
+        var Turismo = request.response;
+      mostrarHeader(Turismo);
+      mostrarsection(Turismo); 
+      mostraaside(Turismo);
+    }
+
+    function mostrarHeader(jsonObj){
+      var mih1 = document.createElement('h1');
+      mih1.textContent=jsonObj['Titulo'];
+      header.appendChild(mih1);
+
+      var myp = document.createElement('p');
+      myp.textContent = 'Ciudad: ' +jsonObj['Ciudad'];
+      header.appendChild(myp);
+    }
+
+    function mostrarsection (jsonObj){
+      
+      var name = document.createElement('h2');
+      name.textContent='nombre: ' +jsonObj['nombre'];
+      section.appendChild(name);
+
+      var namehos=document.createElement('h3');
+      namehos.textContent='Hospedajes: ';
+      section.appendChild(namehos);
+
+      var hospedajes=jsonObj['hospedaje'];
+      var miarticulo=document.createElement('article');
+      var milista1=document.createElement('ul');
+      for(var i = 0 ; i < hospedajes.length ; i++){
+        var listahospedaje=document.createElement('li');
+        listahospedaje.textContent=hospedajes[i];
+        milista1.appendChild(listahospedaje);
+      }
+      
+      var nameres=document.createElement('h3');
+      nameres.textContent='Restaurantes: ';
+      
+
+      var restaurantes=jsonObj['restaurantes'];
+      var milista2=document.createElement('ul');
+      for(var j=0;j<restaurantes.length;j++){
+        var listarestaurante=document.createElement('li');
+        listarestaurante.textContent=restaurantes[j];
+        milista2.appendChild(listarestaurante);
+      }
+
+      var lugarepv=document.createElement('h3');
+      lugarepv.textContent='Lugares para visitar: ';
+      
+
+      var lugaresparav=jsonObj['lugares para visitar'];
+      var milista3=document.createElement('ul');
+      for(var k=0;k<restaurantes.length;k++){
+        var listalugares=document.createElement('li');
+        listalugares.textContent=restaurantes[k];
+        milista3.appendChild(listalugares);
+      }
+
+      var tel = document.createElement('h4');
+      tel.textContent='Telefono: ' +jsonObj['telefono'];
+      
+      var face = document.createElement('h4');
+      face.textContent='Facebook: ' +jsonObj['facebook'];
+
+      miarticulo.appendChild(milista1);
+      miarticulo.appendChild(nameres);
+      miarticulo.appendChild(milista2);
+      miarticulo.appendChild(lugarepv);
+      miarticulo.appendChild(milista3);
+      miarticulo.appendChild(tel);
+      miarticulo.appendChild(face);
+
+
+      section.appendChild(miarticulo);
+    }
+
+    function mostraaside(jsonObj){
+
+      var nombre2 = document.createElement('h2');
+      nombre2.textContent='Nombre: ' +jsonObj['nombre2'];
+      aside.appendChild(nombre2);
+
+      var namehos2=document.createElement('h3');
+      namehos2.textContent='Hospedajes: ';
+      aside.appendChild(namehos2);
+
+      var hospedajes2=jsonObj['hospedaje2'];
+      var miarticulo2=document.createElement('article');
+      var lista01=document.createElement('ul');
+      for(var l = 0 ; l < hospedajes2.length ; l++){
+        var listahospedaje2=document.createElement('li');
+        listahospedaje2.textContent=hospedajes2[l];
+        lista01.appendChild(listahospedaje2);
+      }
+      
+      var nameres2=document.createElement('h3');
+      nameres2.textContent='Restaurantes: ';
+      
+
+      var restaurantes2=jsonObj['restaurantes2'];
+      var lista02=document.createElement('ul');
+      for(var m=0;m<restaurantes2.length;m++){
+        var listarestaurante2=document.createElement('li');
+        listarestaurante2.textContent=restaurantes2[m];
+        lista02.appendChild(listarestaurante2);
+      }
+
+      var lugarepv2=document.createElement('h3');
+      lugarepv2.textContent='Lugares para visitar: ';
+      
+
+      var lugaresparav2=jsonObj['lugares para visitar2'];
+      var lista03=document.createElement('ul');
+      for(var n=0;n<lugaresparav2.length;n++){
+        var listalugares2=document.createElement('li');
+        listalugares2.textContent=lugaresparav2[n];
+        lista03.appendChild(listalugares2);
+      }
+
+      var tel2 = document.createElement('h4');
+      tel2.textContent='Telefono: ' +jsonObj['telefono2'];
+      
+      var face2 = document.createElement('h4');
+      face2.textContent='Facebook: ' +jsonObj['facebook2'];
+
+      miarticulo2.appendChild(lista01);
+      miarticulo2.appendChild(nameres2);
+      miarticulo2.appendChild(lista02);
+      miarticulo2.appendChild(lugarepv2);
+      miarticulo2.appendChild(lista03);
+      miarticulo2.appendChild(tel2);
+      miarticulo2.appendChild(face2);
+
+
+      aside.appendChild(miarticulo2);
+
+
+
+    }
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+div.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+  }
+  
+  div.galeria:hover {
+    border: 1px solid rgb(199, 223, 63);
+    
+  }
+  
+  div.galeria img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.descripcion {
+    padding: 15px;
+    text-align: center;
+    
+  }
+  div.container{
+      align-content: center;
+  }
+  h2{
+      font-family: cursive;
+      text-align: center;
+      color: rgb(232, 245, 117);
+  }
+  body{
+    background-color:rgb(22, 100, 114);
+  }
+  figcaption{
+    color: rgb(232, 245, 117);
+  }
+  footer{
+    clear: both;
+    background-color: rgb(143, 190, 221);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .header {
+    background-color: rgb(15, 61, 85);
+    
+  }
+.header img{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 120px;
+    height: auto;
+  }
+ h1{
+    float:right;
+    color: rgb(112, 229, 233);
+    padding-right: 10%;
+    padding-top: 4%;
+    font-size: 170%;
+    
+  }
